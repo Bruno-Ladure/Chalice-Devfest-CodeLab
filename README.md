@@ -20,7 +20,9 @@ Préfére la région eu-west-1 (Irland)
 - Allez dans l'onglet "Properties" et cliquez sur "Static website hosting"
 - Sélectionnez "Use this bucket to host a website"
 - Tapez "index.html" dans le champ "index document" et sauvez
-- allez dans l'onglet "Permissions" et cliquez sur "Bucket Policy"
+- Allez dans l'onglet "Permissions" et cliquez sur "Block all public access"
+- Cliquez sur edit, décocher *Block all public access* et sauvez
+- Cliquez sur "Bucket Policy"
 - Inserez dans le champ texte la policy suivante en changeant *<BUCKET_NAME>* par le nom de votre bucket
     ```json
     {
