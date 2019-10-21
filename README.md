@@ -47,7 +47,7 @@ Etape 2 : Configuration de l'app
 dans le fichier config.json
 - Mettez à jour la varaibales d'environnement *IDENTITY*. Elle permetera d'identifier vous message dans Slack
 - Déclarez une variable d'environnement *SLACK_MESSAGE_WH* au niveau du stage *dev* portant comme valeur l'url du webhook slack du channel choisi
-- Déclarez une variable d'environnement *BUCKET_NAME* pour la lambda *rock_on_stage*
+- Déclarez une variable d'environnement *BUCKET_NAME* au niveau du stage *dev*
 
 
 Etape 3 : Utilisation de sous-module et de Blueprints
